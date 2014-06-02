@@ -1,0 +1,31 @@
+JJ
+
+Main Page with custom Calendar View
+
+Apache Debugging (if necessary)
+
+Creation of the Instructions for the Project when App Launches
+
+----------------------------------------------------------------------
+
+Sasha
+
+Personal Show Page Creation
+
+IMDB API implementation
+
+Menu Button
+
+-------------------------------------------------------------------------
+
+Daniel
+
+Total Show Page
+
+Directory creation & Save Format
+
+Menu Button
+
+'Episode Watched' Toggle Button
+
+

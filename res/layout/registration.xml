@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent" android:weightSum="1">
+
+    <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="Login"
+            android:id="@+id/logintextView" android:layout_weight="0.20" android:textIsSelectable="false"
+            android:textSize="30dp"/>
+    <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="No collection could be retrieved. Please click the button below to create a new one."
+            android:id="@+id/loginPrompttextView" android:layout_weight="0.20"
+            android:textSize="30sp"/>
+    <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/collectionTxtView" android:layout_weight="0.10" android:inputType="text|number"
+            />
+    <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Create Collection"
+            android:id="@+id/Collectionbutton" android:layout_gravity="right" android:layout_weight="0.10"
+            android:singleLine="false" android:padding="20px" android:clickable="true"
+            android:onClick="CollectionClick"/>
+    <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="Invalid Format. Please create a name with a valid format"
+            android:id="@+id/invalidFormat"
+            android:layout_gravity="center_horizontal"
+            android:layout_weight="0.20" android:visibility="invisible"/>
+
+
+</LinearLayout>
