@@ -19,12 +19,12 @@
  */
 package com.example.TV_Remind_Me;
 
-import com.omertron.tvrageapi.TVRageApi;
-import com.omertron.tvrageapi.model.CountryDetail;
-import com.omertron.tvrageapi.model.Episode;
-import com.omertron.tvrageapi.model.EpisodeList;
-import com.omertron.tvrageapi.model.EpisodeNumber;
-import com.omertron.tvrageapi.model.ShowInfo;
+import com.example.TV_Remind_Me.TVRageApi;
+import com.example.TV_Remind_Me.CountryDetail;
+import com.example.TV_Remind_Me.Episode;
+import com.example.TV_Remind_Me.EpisodeList;
+import com.example.TV_Remind_Me.EpisodeNumber;
+import com.example.TV_Remind_Me.ShowInfo;
 import java.io.IOException;
 import java.util.ArrayList;
 import java.util.List;

@@ -19,17 +19,19 @@
  */
 package com.example.TV_Remind_Me;
 
-import com.omertron.tvrageapi.model.Episode;
-import com.omertron.tvrageapi.model.EpisodeList;
-import com.omertron.tvrageapi.model.ShowInfo;
-import com.omertron.tvrageapi.tools.DOMHelper;
-import com.omertron.tvrageapi.tools.TVRageParser;
+import com.example.TV_Remind_Me.Episode;
+import com.example.TV_Remind_Me.EpisodeList;
+import com.example.TV_Remind_Me.ShowInfo;
+import com.example.TV_Remind_Me.DOMHelper;
+import com.example.TV_Remind_Me.TVRageParser;
 import java.util.ArrayList;
 import java.util.List;
 import org.apache.commons.lang3.StringUtils;
 import org.apache.commons.lang3.math.NumberUtils;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
+//import org.apache.log4j.Logger; <----- Remove log4j-1.2.17.jar
+
 import org.yamj.api.common.http.CommonHttpClient;
 import org.yamj.api.common.http.DefaultPoolingHttpClient;
 

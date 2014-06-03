@@ -19,8 +19,8 @@
  */
 package com.example.TV_Remind_Me;
 
-import com.omertron.tvrageapi.TVRageApi;
-import static com.omertron.tvrageapi.TVRageApi.isValidString;
+import com.example.TV_Remind_Me.TVRageApi;
+import static com.example.TV_Remind_Me.TVRageApi.isValidString;
 import java.io.Serializable;
 import java.util.Map;
 import java.util.TreeMap;
